@@ -1,7 +1,6 @@
 import {MongoClient} from 'mongodb';
 
 const url = process.env.MONGO_URL || 'mongodb://localhost:27017';
-//// mongodb://mongo:GMPATTBwFjRXzZfYzaozZtYxJIRBqaNA@junction.proxy.rlwy.net:42771
 const client = new MongoClient(url);
 
 const dbName = 'vacancy-responses';
