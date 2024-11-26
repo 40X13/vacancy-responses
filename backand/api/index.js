@@ -1,5 +1,5 @@
-import {app} from './app.js';
-import {runDb} from './repositories/db.js';
+import {app} from '../app.js';
+import {runDb} from '../repositories/db.js';
 
 const port = 5000;
 const host = 'localhost';

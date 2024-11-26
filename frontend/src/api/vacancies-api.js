@@ -1,5 +1,5 @@
 export const vacanciesAPI = {
-    baseURL:'https://vacancy-responses.vercel.app/api/vacancies',
+    baseURL:'https://backand-4jig36g7x-40x13s-projects.vercel.app/api/vacancies',
         // (process.env.BASE_URL || 'http://localhost:5000') + '/api/vacancies',
 
     async getVacancies() {
