@@ -1,5 +1,5 @@
-import {app} from './backand/app.js';
-import {runDb} from './backand';
+import {app} from './app.js';
+import {runDb} from './repositories/db.js';
 
 const port = 5000;
 const host = 'localhost';
