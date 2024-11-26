@@ -1,5 +1,6 @@
 export const vacanciesAPI = {
-    baseURL: (process.env.URL || 'http://localhost:5000') + '/api/vacancies',
+    baseURL: 'https://vacancy-ww2c.onrender.com/api/vacancies',
+    // 'http://localhost:5000'
 
     async getVacancies() {
         const res = await fetch(this.baseURL);
