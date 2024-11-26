@@ -1,5 +1,5 @@
 export const vacanciesAPI = {
-    baseURL:'http://localhost:5000/api/vacancies',
+    baseURL: (process.env.URL || 'http://localhost:5000') + '/api/vacancies',
 
     async getVacancies() {
         const res = await fetch(this.baseURL);
