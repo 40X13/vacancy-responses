@@ -6,7 +6,7 @@ const host = 'localhost';
 
 const startApp = async () => {
     await runDb();
-    app.listen(5000, host, () => console.log(`сервер запущен на порту ${port}`));
+    app.listen(port, host, () => console.log(`сервер запущен на порту ${port}`));
 };
 
 await startApp();
